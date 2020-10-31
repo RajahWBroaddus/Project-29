@@ -111,11 +111,6 @@ function draw() {
     blocks2.display();
     blocks3.display();
     blocks4.display();
-
-
-
-
-
     blocks7.display();
 
     fill("green");
