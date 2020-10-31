@@ -111,13 +111,17 @@ function draw() {
     blocks2.display();
     blocks3.display();
     blocks4.display();
+
+
+
+
+
     blocks7.display();
 
-    fill("green");
-    textSize(25);
-    textAlign(CENTER);
-    text("Press '\Space'\ to try again.",400,50);
-    
+fill("green");
+    textSize(20);
+text("Press '\Space'\ to try again.",400,50);
+
 }
 
 
