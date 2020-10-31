@@ -115,7 +115,7 @@ function draw() {
 
     fill("green");
     stroke("green");
-    textSize("20");
+    textSize(20);
     text("Press '\Space'\ to try again.",400,50);
     
 }
