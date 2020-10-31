@@ -114,8 +114,8 @@ function draw() {
     blocks7.display();
 
     fill("green");
-    stroke("green");
     textSize(20);
+    textAlign(CENTER);
     text("Press '\Space'\ to try again.",400,50);
     
 }
