@@ -11,9 +11,15 @@ class Box {
         World.add(world, this.body);
     }
     display() {
+        var angle = this.body.angle;
         var pos = this.body.position;
+        push();
+        translate(pos.x, pos.y);
+        strokeWeight(0);
+        rotate(angle);
         rectMode(CENTER);
-        rect(pos.x, pos.y, this.width, this.height, this.body.angle);
+        rect(0, 0, this.width, this.height);
+        pop();
     }
 
 }
